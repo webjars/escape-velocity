@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>escape-velocity</artifactId>
-    <version>1.0.0-1</version>
+    <version>1.0.0-2-SNAPSHOT</version>
     <name>escape-velocity</name>
     <description>WebJar for escape-velocity by HTML5 UP</description>
     <url>http://webjars.org</url>
@@ -42,7 +42,7 @@
         <url>http://github.com/webjars/${project.artifactId}-tools</url>
         <connection>scm:git:https://github.com/webjars/${project.artifactId}.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/${project.artifactId}.git</developerConnection>
-        <tag>escape-velocity-1.0.0-1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
