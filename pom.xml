@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>escape-velocity</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-1-SNAPSHOT</version>
     <name>escape-velocity</name>
     <description>WebJar for escape-velocity by HTML5 UP</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.url>https://github.com/gilles-gosuin/escape-velocity/archive/refs/tags/${version.unsnapshot}.zip</upstream.url>
+        <upstream.url>https://github.com/gilles-gosuin/escape-velocity/archive/refs/tags/${version.unrevise}.zip</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
     </properties>
 
@@ -96,7 +96,7 @@
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/${project.artifactId}-${version.unsnapshot}">
+                                    <fileset dir="${project.build.directory}/${project.artifactId}-${version.unrevise}">
                                         <include name="css/**" />
                                         <include name="js/**" />
                                     </fileset>
